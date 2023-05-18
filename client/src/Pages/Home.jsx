@@ -1,12 +1,14 @@
 import React from 'react'
-import Post from './Post'
+import Post from '../Components/Post'
 
-const PostList = () => {
+const Home = () => {
     return (
         <div className="posts-list">
+            <Post />
+            <Post />
             <Post />
         </div>
     )
 }
 
-export default PostList
+export default Home
